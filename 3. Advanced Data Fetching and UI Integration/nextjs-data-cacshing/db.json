@@ -1,0 +1,84 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Headphones",
+      "price": 59.99,
+      "category": "Electronics",
+      "description": "High-quality wireless headphones with noise cancellation.",
+      "image": "https://example.com/images/headphones.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Smart Watch",
+      "price": 89.99,
+      "category": "Electronics",
+      "description": "Smart watch with fitness tracking and heart rate monitoring.",
+      "image": "https://example.com/images/smart-watch.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Running Shoes",
+      "price": 74.99,
+      "category": "Fashion",
+      "description": "Lightweight running shoes designed for comfort and performance.",
+      "image": "https://example.com/images/running-shoes.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Laptop Backpack",
+      "price": 39.99,
+      "category": "Accessories",
+      "description": "Water-resistant backpack with a dedicated laptop compartment.",
+      "image": "https://example.com/images/backpack.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Mechanical Keyboard",
+      "price": 69.99,
+      "category": "Electronics",
+      "description": "RGB mechanical keyboard with tactile switches.",
+      "image": "https://example.com/images/keyboard.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Coffee Maker",
+      "price": 49.99,
+      "category": "Home Appliances",
+      "description": "Compact coffee maker for making fresh coffee at home.",
+      "image": "https://example.com/images/coffee-maker.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Cotton T-Shirt",
+      "price": 19.99,
+      "category": "Fashion",
+      "description": "Comfortable 100% cotton T-shirt suitable for everyday use.",
+      "image": "https://example.com/images/t-shirt.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Bluetooth Speaker",
+      "price": 44.99,
+      "category": "Electronics",
+      "description": "Portable Bluetooth speaker with powerful stereo sound.",
+      "image": "https://example.com/images/speaker.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Desk Lamp",
+      "price": 29.99,
+      "category": "Home",
+      "description": "Adjustable LED desk lamp with multiple brightness levels.",
+      "image": "https://example.com/images/desk-lamp.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Water Bottle",
+      "price": 14.99,
+      "category": "Accessories",
+      "description": "Reusable stainless steel water bottle that keeps drinks cool.",
+      "image": "https://example.com/images/water-bottle.jpg"
+    }
+  ]
+}
