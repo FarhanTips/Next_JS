@@ -80,5 +80,55 @@
       "description": "Reusable stainless steel water bottle that keeps drinks cool.",
       "image": "https://example.com/images/water-bottle.jpg"
     }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "The Silent Patient",
+      "author": "Alex Michaelides",
+      "price": 15.99,
+      "category": "Thriller",
+      "description": "A psychological thriller about a woman accused of murdering her husband."
+    },
+    {
+      "id": 2,
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "price": 18.99,
+      "category": "Self-Help",
+      "description": "A practical guide to building good habits and breaking bad ones."
+    },
+    {
+      "id": 3,
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "price": 12.99,
+      "category": "Fiction",
+      "description": "A young shepherd follows his dreams in search of a hidden treasure."
+    },
+    {
+      "id": 4,
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "price": 32.99,
+      "category": "Programming",
+      "description": "A guide to writing clean, readable, and maintainable software."
+    },
+    {
+      "id": 5,
+      "title": "Deep Work",
+      "author": "Cal Newport",
+      "price": 16.99,
+      "category": "Productivity",
+      "description": "Strategies for developing focused work habits in a distracted world."
+    },
+    {
+      "id": 6,
+      "title": "The Pragmatic Programmer",
+      "author": "David Thomas and Andrew Hunt",
+      "price": 29.99,
+      "category": "Programming",
+      "description": "Practical principles and techniques for becoming a better software developer."
+    }
   ]
 }
