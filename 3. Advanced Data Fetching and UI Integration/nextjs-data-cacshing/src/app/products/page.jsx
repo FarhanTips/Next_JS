@@ -1,6 +1,8 @@
 import React from 'react';
 import ProductCard from '../components/ProductCard';
 
+
+// getProducts() শুধু একটা reusable async function। Page component-এর মধ্যেই fetch করতে পারতে। getProducts() আলাদা করা হয়েছে মূলত reusable/clean code রাখার জন্য।
 const getProducts = async () =>{
     // const res = await fetch("http://localhost:5000/products", {cache:'force-cache'});
     const res = await fetch("http://localhost:5000/products", {cache:'no-store'});
