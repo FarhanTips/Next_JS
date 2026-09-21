@@ -1,3 +1,5 @@
+import { Inknut_Antiqua } from 'next/font/google';
+import Link from 'next/link';
 import React from 'react';
 
 const BookCard = ({book}) => {
@@ -8,7 +10,9 @@ const BookCard = ({book}) => {
                 <p>{book.description}</p>
                 <div className="card-actions justify-end">
                     <button className="btn btn-primary">Buy Now</button>
+                    <Link href={`/books/${book.id}`}><button className="btn btn-primary">Show Details</button></Link>
                 </div>
+
             </div>
         </div>
     );
