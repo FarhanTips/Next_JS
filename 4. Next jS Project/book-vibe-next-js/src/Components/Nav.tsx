@@ -22,7 +22,7 @@ const Nav = () => {
                         <li><a>Item 3</a></li>
                     </ul>
                 </div>
-                <a className="text-xl font-black">Book Vibe</a>
+                <a className="text-2xl font-black">Book Vibe</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
