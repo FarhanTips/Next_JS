@@ -36,7 +36,7 @@ const ListedBooksCard = ({ book }: { book: BookType }) => {
                     </span>
 
                     <span className="text-gray-500">
-                        {book.yearOfPublishing}
+                        Publisher year: {book.yearOfPublishing}
                     </span>
                 </div>
             </div>
