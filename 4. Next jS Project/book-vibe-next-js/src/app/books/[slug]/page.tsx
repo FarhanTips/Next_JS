@@ -1,3 +1,5 @@
+import ReadButton from '@/Components/bookDetails/ReadButton';
+import WishListButton from '@/Components/bookDetails/WishlistButton';
 import { getBooks } from '@/lib/getBooks';
 import Image from 'next/image';
 import React from 'react';
@@ -88,9 +90,8 @@ const BookDetails = async ({ params }: BookDetailsProps) => {
                 {/* Buttons */}
                 <div className="mt-7 flex gap-4">
 
-                    <button className="btn btn-outline px-6">Read</button>
-
-                    <button className="btn btn-info text-white px-7">Wishlist</button>
+                    <ReadButton book={book}></ReadButton>
+                    <WishListButton book={book}></WishListButton>
 
                 </div>
 

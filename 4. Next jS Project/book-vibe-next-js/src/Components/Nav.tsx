@@ -5,6 +5,7 @@ const Nav = () => {
     const links = <>
         <li><Link href={"/"}>Home</Link></li>
         <li><Link href={"/books"}>Books</Link></li>
+        <li><Link href={"/listed-books"}>Listed Books</Link></li>
     </>
 
     return (
