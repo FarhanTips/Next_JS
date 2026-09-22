@@ -1,5 +1,6 @@
 import { BookType } from "@/types/bookType";
 import Image from "next/image";
+import Link from "next/link";
 
 interface BooksCardProps {
     book: BookType
@@ -53,6 +54,13 @@ const BooksCard = ({ book }: BooksCardProps) => {
                     </div>
 
                 </div>
+
+                {/* View Details */}
+                <Link href={`/books/${book.bookId}`}>
+                    <button className="btn mt-4 w-full rounded-lg bg-black px-4 py-2.5 text-sm font-semibold text-white transition-colors duration-200 hover:bg-green-700">
+                        View Details →
+                    </button>
+                </Link>
 
             </div>
         </div>
