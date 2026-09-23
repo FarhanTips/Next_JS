@@ -1,6 +1,7 @@
 import ReadButton from '@/Components/bookDetails/ReadButton';
 import WishListButton from '@/Components/bookDetails/WishlistButton';
 import { getBooks } from '@/lib/getBooks';
+import { BookType } from '@/types/bookType';
 import Image from 'next/image';
 import React from 'react';
 
@@ -13,7 +14,8 @@ const BookDetails = async ({ params }: BookDetailsProps) => {
     const { slug } = await params;
 
     const books = await getBooks();
-    const book = books.find(book => book.bookId === Number(slug));
+    const book = books.find(book => book.bookId === Number(slug)) as BookType;
+
     return (
         <div className="mx-auto my-12 grid w-11/12 max-w-6xl grid-cols-1 gap-10 rounded-3xl border border-gray-200 bg-white p-6 shadow-lg md:grid-cols-2 md:p-10">
 

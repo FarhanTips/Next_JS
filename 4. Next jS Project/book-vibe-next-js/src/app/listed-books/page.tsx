@@ -7,7 +7,7 @@ import React, { useContext, useState } from 'react';
 
 const ListedBooksPage = () => {
 
-    const { readBooks, setReadBooks, wishList, setWishList } = useContext(BooksContext);
+    const { readBooks, wishList } = useContext(BooksContext);
 
     const [sortBy, setSortBy] = useState("Sort By");
 
