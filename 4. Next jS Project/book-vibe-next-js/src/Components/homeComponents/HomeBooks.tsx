@@ -1,11 +1,8 @@
-import { BookType } from "@/types/bookType";
-import BooksCard from "../BooksCard";
 
-const getBooks = async (): Promise<BookType[]> => {
-    const res = await fetch("http://localhost:3000/booksData.json");
-    const data = await res.json();
-    return data;
-}
+import BooksCard from "../BooksCard";
+import { getBooks } from "@/lib/getBooks";
+
+
 
 
 const HomeBooks = async () => {

@@ -1,11 +1,7 @@
 import BooksCard from "@/Components/BooksCard";
-import { BookType } from "@/types/bookType";
+import { getBooks } from "@/lib/getBooks";
 
-const getBooks = async (): Promise<BookType[]> => {
-    const res = await fetch("http://localhost:3000/booksData.json");
-    const data = await res.json();
-    return data;
-}
+
 
 
 const BooksPage = async () => {
